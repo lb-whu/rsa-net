@@ -50,5 +50,3 @@ optional arguments:
 
 
 ## Inference
-
-* Official source code in Torch: https://github.com/junyanz/CycleGAN
