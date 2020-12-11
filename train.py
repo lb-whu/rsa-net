@@ -32,12 +32,12 @@ tf.flags.DEFINE_integer('ngf', 64,
 tf.flags.DEFINE_integer('class_num', 8,
                         'number of gen filters in first conv layer, default: 64')
                         
-tf.flags.DEFINE_string('DataPath', '/home/libo/GANS/DATA/DH2NEO/',
+tf.flags.DEFINE_string('DataPath', './train/',
                        'data set path, default:')
-tf.flags.DEFINE_string('valPath', '/home/libo/GANS/DATA/DH2NEO/',
+tf.flags.DEFINE_string('valPath', './val/',
                        'validata path, default:')
 
-tf.flags.DEFINE_string('load_model','20201129-0853',
+tf.flags.DEFINE_string('load_model',None,
                         'folder of saved model that you wish to continue training (e.g. 20170602-1936), default: None')
                         
 logger = logging.getLogger(__name__)
